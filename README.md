@@ -1,7 +1,8 @@
 # Sign_language-converter
-This project has two phases. 
+This project has 3 major features. 
 1. Sign language to Text and speech
 2. Speech to Sign Language
+3. Conversion from Youtube transcript
 
 Additionally, there is a feature to display the transcript of a youtube video in sign language to help aid the specially abled people
 
@@ -24,12 +25,12 @@ This System will be Beneficial for Both Dumb/Deaf People and the People Who do n
 We have also added a functionality of youtube so that the person can even watch youtube videos with the ease of their own language rather than just reasing the subtitles. In futuren we can colab with youtube and google to provide an avatar that converts the captions into live gestures.
 
 
-**Data Acquisition **
+**Data Acquisition:**
 
 When using vision-based methods, the computer's webcam serves as the input device for observing hand and/or finger movements. Vision-based methods require only a camera, enabling a natural interaction between humans and computers without the need for additional devices, which reduces costs. However, the main challenge of vision-based hand detection is coping with the wide range of appearances of the human hand due to numerous movements, variations in skin color, and differences in viewpoints, scales, and camera speed during scene capture.
 
 
-**Gesture classification**
+**Gesture classification:**
 
 Convolutional Neural Network (CNN)
 Convolutional Layer
