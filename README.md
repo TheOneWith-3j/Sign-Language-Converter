@@ -1,43 +1,43 @@
-# Sign_language-converter
-This project has 3 major features. 
-1. Sign language to Text and speech
-2. Speech to Sign Language
-3. Conversion from Youtube transcript
+# 🤟🔊 Sign Language Converter
 
-Additionally, there is a feature to display the transcript of a youtube video in sign language to help aid the specially abled people
+Unlock the world of communication for the differently-abled! This project empowers individuals using American Sign Language with innovative features and real-time capabilities.
 
+[![Watch the Video Demo](https://img.youtube.com/vi/your_youtube_video_id/0.jpg)](https://youtu.be/your_youtube_video_id)
 
-**ABSTRACT:** 
+## Major Features:
 
-We have developed a real-time method using neural networks to recognize finger-spelling based American Sign Language, which is one of the oldest and most natural forms of communication. Recognizing human hand gestures from camera images is an intriguing topic in computer vision. To achieve this, we propose a convolutional neural network (CNN) method that can recognize human hand gestures from camera images. Our aim is to recognize hand gestures of human task activities from a camera image by using the hand position and orientation to train and test the CNN. We first filter the hand and then pass it through a classifier to predict the class of the hand gestures. The calibrated images are then used to train the CNN.
+1. **Sign Language to Text and Speech**: Transform sign language gestures into text and spoken words.
+2. **Speech to Sign Language**: Communicate with sign language by inputting speech.
+3. **Youtube Transcript Conversion**: Display Youtube video transcripts in sign language to aid the specially-abled.
 
+## Abstract
 
-**Introduction:**
+Breaking communication barriers, we employ neural networks to recognize finger-spelling based American Sign Language in real-time. Our convolutional neural network (CNN) method dives into the intriguing realm of human hand gesture recognition from camera images. By filtering and classifying hand gestures, our system predicts and interprets sign language, fostering inclusivity.
 
-As spoken language is not an option for individuals with communication-related disabilities, American Sign Language has become the predominant sign language. Communication is the act of exchanging thoughts and messages, which can be done in various ways such as through speech, signals, behavior, and visuals. Deaf and mute individuals communicate using hand gestures to express their ideas, which are understood through visual perception. This nonverbal communication is commonly referred to as sign language.
+## Introduction
 
-Our project focuses on developing a model that can recognize finger-spelling-based hand gestures to form complete words by combining each gesture. The gestures we aim to train the model on are depicted in the image below.
+In a world where spoken language isn't an option for communication-related disabilities, American Sign Language takes center stage. This non-verbal form of communication involves hand gestures and visual expressions. Our project focuses on recognizing finger-spelling-based hand gestures, bridging the communication gap for the deaf and mute.
 
+## Scope
 
-**Scope:**
-This System will be Beneficial for Both Dumb/Deaf People and the People Who do not understands the Sign Language. They just need to do that with sign Language gestures and this system will identify what he/she is trying to say after identification it gives the output in the form of Text as well as Speech format. This makes the communication with them much easier as they can now communicate twith people who do not know the sign language.
+Beneficial for both the deaf/mute and those unfamiliar with sign language, this system interprets sign language gestures, providing output in both text and speech formats. Ease of communication is enhanced, allowing meaningful interactions between individuals regardless of sign language knowledge.
 
-We have also added a functionality of youtube so that the person can even watch youtube videos with the ease of their own language rather than just reasing the subtitles. In futuren we can colab with youtube and google to provide an avatar that converts the captions into live gestures.
+In addition, our system extends its capabilities to Youtube videos, providing an inclusive experience by converting captions into live sign language gestures. Future collaborations with Youtube and Google envision avatars translating captions into dynamic gestures.
 
+## Data Acquisition
 
-**Data Acquisition:**
+Using a vision-based approach, the computer's webcam becomes the input device, observing hand and finger movements. This method facilitates natural interaction, eliminating the need for extra devices. Challenges in handling various hand appearances due to movements, skin color variations, and different viewpoints are addressed.
 
-When using vision-based methods, the computer's webcam serves as the input device for observing hand and/or finger movements. Vision-based methods require only a camera, enabling a natural interaction between humans and computers without the need for additional devices, which reduces costs. However, the main challenge of vision-based hand detection is coping with the wide range of appearances of the human hand due to numerous movements, variations in skin color, and differences in viewpoints, scales, and camera speed during scene capture.
+## Gesture Classification
 
+Leveraging Convolutional Neural Network (CNN) technology, our system excels in:
 
-**Gesture classification:**
+- Convolutional Layer
+- Pooling Layer
+- Fully Connected Layer
 
-Convolutional Neural Network (CNN)
-Convolutional Layer
-Pooling Layer
-Fully Connected Layer
+## Text To Speech Translation
 
+This module translates text into speech using the pyttsx3 library. Users can input words using sign language, and the system converts them into spoken words.
 
-**Text To Speech Translation:**
-
-This model translates the text into speech by using modules such as pyttsx3 library to convert the words provided by the user using the sign language.
+Explore the possibilities, break barriers, and enable communication for everyone! 🌐🤟
