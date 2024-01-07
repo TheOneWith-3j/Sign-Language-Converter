@@ -2,7 +2,7 @@
 
 Unlock the world of communication for the differently-abled! This project empowers individuals using American Sign Language with innovative features and real-time capabilities.
 
-[![Watch the Video Demo](https://img.youtube.com/vi/your_youtube_video_id/0.jpg)](https://youtu.be/your_youtube_video_id)
+[![Watch the Video Demo](https://img.youtube.com/vi/uEwaGspfxTE/0.jpg)](https://youtu.be/uEwaGspfxTE)
 
 ## Major Features:
 
