@@ -4,7 +4,7 @@ Unlock the world of communication for the differently-abled! This project empowe
 
 [![Watch the Video Demo](https://img.youtube.com/vi/uEwaGspfxTE/0.jpg)](https://youtu.be/uEwaGspfxTE)
 
-## Major Features:
+## Major Features: 
 
 1. **Sign Language to Text and Speech**: Transform sign language gestures into text and spoken words.
 2. **Speech to Sign Language**: Communicate with sign language by inputting speech.
